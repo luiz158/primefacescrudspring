@@ -1,4 +1,4 @@
-package com.hrycan.prime.dao.impl;
+package com.aripd.project.dao.impl;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -19,12 +19,12 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Repository;
 
-import com.hrycan.prime.dao.EmployeeDao;
-import com.hrycan.prime.entity.Employee;
-import com.hrycan.prime.entity.Employee_;
-import com.hrycan.prime.entity.Office_;
-import com.hrycan.prime.util.EmployeeQueryData;
-import com.hrycan.prime.util.QuerySortOrder;
+import com.aripd.project.dao.EmployeeDao;
+import com.aripd.project.entity.Employee;
+import com.aripd.project.entity.Employee_;
+import com.aripd.project.entity.Office_;
+import com.aripd.project.util.EmployeeQueryData;
+import com.aripd.project.util.QuerySortOrder;
 
 @Repository("employeeDao")
 public class EmployeeDaoJPA implements EmployeeDao {

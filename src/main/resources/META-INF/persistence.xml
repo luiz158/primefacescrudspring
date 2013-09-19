@@ -15,8 +15,8 @@
 
             <property name="hibernate.cache.region.factory_class" value="net.sf.ehcache.hibernate.SingletonEhCacheRegionFactory"/>
             <property name="hibernate.cache.use_second_level_cache" value="true"/>
-            <property name="hibernate.ejb.classcache.com.hrycan.prime.entity.Office" value="read-write"/>
-            <property name="hibernate.ejb.classcache.com.hrycan.prime.entity.Employee" value="read-write"/>
+            <property name="hibernate.ejb.classcache.com.aripd.project.entity.Office" value="read-write"/>
+            <property name="hibernate.ejb.classcache.com.aripd.project.entity.Employee" value="read-write"/>
             <!--property name="hibernate.cache.use_query_cache" value="true"/-->
         </properties>
     </persistence-unit>

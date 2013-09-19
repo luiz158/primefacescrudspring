@@ -1,4 +1,4 @@
-package com.hrycan.prime.entity;
+package com.aripd.project.entity;
 
 import java.io.Serializable;
 

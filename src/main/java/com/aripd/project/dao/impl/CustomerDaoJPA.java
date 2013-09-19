@@ -1,4 +1,4 @@
-package com.hrycan.prime.dao.impl;
+package com.aripd.project.dao.impl;
 
 import java.util.List;
 
@@ -11,8 +11,8 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Repository;
 
-import com.hrycan.prime.dao.CustomerDao;
-import com.hrycan.prime.entity.Customer;
+import com.aripd.project.dao.CustomerDao;
+import com.aripd.project.entity.Customer;
 
 @Repository("customerDao")
 public class CustomerDaoJPA implements CustomerDao {

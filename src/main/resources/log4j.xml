@@ -10,7 +10,7 @@
         </layout>
     </appender>
 
-    <category name="com.hrycan.prime">
+    <category name="com.aripd.project">
         <priority value="info"/>
     </category>
     

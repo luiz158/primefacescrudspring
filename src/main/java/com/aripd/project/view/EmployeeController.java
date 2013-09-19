@@ -1,4 +1,4 @@
-package com.hrycan.prime.view;
+package com.aripd.project.view;
 
 import java.io.Serializable;
 import java.util.Arrays;
@@ -25,14 +25,14 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.util.StopWatch;
 
-import com.hrycan.prime.entity.Employee;
-import com.hrycan.prime.entity.Office;
-import com.hrycan.prime.exception.DataNotFoundException;
-import com.hrycan.prime.exception.StaleDataException;
-import com.hrycan.prime.service.ClassicModelsService;
-import com.hrycan.prime.util.EmployeeQueryData;
-import com.hrycan.prime.util.JsfUtil;
-import com.hrycan.prime.util.QuerySortOrder;
+import com.aripd.project.entity.Employee;
+import com.aripd.project.entity.Office;
+import com.aripd.project.exception.DataNotFoundException;
+import com.aripd.project.exception.StaleDataException;
+import com.aripd.project.service.ClassicModelsService;
+import com.aripd.project.util.EmployeeQueryData;
+import com.aripd.project.util.JsfUtil;
+import com.aripd.project.util.QuerySortOrder;
 
 @ManagedBean(name = "employeesController")
 @ViewScoped

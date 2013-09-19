@@ -1,4 +1,4 @@
-package com.hrycan.prime.util;
+package com.aripd.project.util;
 
 import java.util.Iterator;
 import java.util.List;

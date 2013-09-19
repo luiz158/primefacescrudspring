@@ -32,7 +32,7 @@
           p:password="${jdbc.password}"/>
   
 
-    <context:component-scan base-package="com.hrycan.prime" />
+    <context:component-scan base-package="com.aripd.project" />
 
     <bean class="org.springframework.dao.annotation.PersistenceExceptionTranslationPostProcessor"/>
   

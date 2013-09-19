@@ -1,10 +1,10 @@
-package com.hrycan.prime.service;
+package com.aripd.project.service;
 
 import java.util.List;
 
-import com.hrycan.prime.entity.Employee;
-import com.hrycan.prime.entity.Office;
-import com.hrycan.prime.util.EmployeeQueryData;
+import com.aripd.project.entity.Employee;
+import com.aripd.project.entity.Office;
+import com.aripd.project.util.EmployeeQueryData;
 
 public interface ClassicModelsService {
 	public int getOfficeCount();

@@ -18,7 +18,7 @@
 	
 
         
-	<cache name="com.hrycan.prime.entity.Office"
+	<cache name="com.aripd.project.entity.Office"
 		maxElementsInMemory="100"
 		eternal="false"
 		timeToIdleSeconds="300"
@@ -26,7 +26,7 @@
 		overflowToDisk="false"
 	/>
 	
-	<cache name="com.hrycan.prime.entity.Employee"
+	<cache name="com.aripd.project.entity.Employee"
 		maxElementsInMemory="2000"
 		eternal="false"
 		timeToIdleSeconds="300"

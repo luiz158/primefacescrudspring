@@ -1,9 +1,9 @@
-package com.hrycan.prime.dao;
+package com.aripd.project.dao;
 
 import java.util.List;
 
-import com.hrycan.prime.entity.Employee;
-import com.hrycan.prime.util.EmployeeQueryData;
+import com.aripd.project.entity.Employee;
+import com.aripd.project.util.EmployeeQueryData;
 
 public interface EmployeeDao extends ClassicModelsDao<Employee> {
 	public Employee getEmployeeWithCustomers(Integer id);

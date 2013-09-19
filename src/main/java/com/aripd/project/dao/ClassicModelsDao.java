@@ -1,10 +1,10 @@
-package com.hrycan.prime.dao;
+package com.aripd.project.dao;
 
 import java.util.List;
 
-import com.hrycan.prime.entity.Customer;
-import com.hrycan.prime.entity.Employee;
-import com.hrycan.prime.entity.Office;
+import com.aripd.project.entity.Customer;
+import com.aripd.project.entity.Employee;
+import com.aripd.project.entity.Office;
 
 public interface ClassicModelsDao<T> {
 	public void create(T entity);

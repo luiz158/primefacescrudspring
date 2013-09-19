@@ -1,6 +1,6 @@
-package com.hrycan.prime.dao;
+package com.aripd.project.dao;
 
-import com.hrycan.prime.entity.Office;
+import com.aripd.project.entity.Office;
 
 public interface OfficeDao extends ClassicModelsDao<Office> {
 	public Office getOfficeWithEmployees(Integer id);

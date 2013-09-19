@@ -1,4 +1,4 @@
-package com.hrycan.prime.exception;
+package com.aripd.project.exception;
 
 public class DataNotFoundException extends RuntimeException {
 	public DataNotFoundException() {

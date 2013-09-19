@@ -1,4 +1,4 @@
-package com.hrycan.prime.service;
+package com.aripd.project.service;
 
 import java.util.List;
 
@@ -10,14 +10,14 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.util.StopWatch;
 
-import com.hrycan.prime.dao.CustomerDao;
-import com.hrycan.prime.dao.EmployeeDao;
-import com.hrycan.prime.dao.OfficeDao;
-import com.hrycan.prime.entity.Employee;
-import com.hrycan.prime.entity.Office;
-import com.hrycan.prime.exception.DataNotFoundException;
-import com.hrycan.prime.exception.StaleDataException;
-import com.hrycan.prime.util.EmployeeQueryData;
+import com.aripd.project.dao.CustomerDao;
+import com.aripd.project.dao.EmployeeDao;
+import com.aripd.project.dao.OfficeDao;
+import com.aripd.project.entity.Employee;
+import com.aripd.project.entity.Office;
+import com.aripd.project.exception.DataNotFoundException;
+import com.aripd.project.exception.StaleDataException;
+import com.aripd.project.util.EmployeeQueryData;
 
 @Transactional 
 @Service(value="classicModelsService")

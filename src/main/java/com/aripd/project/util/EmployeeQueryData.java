@@ -1,10 +1,10 @@
-package com.hrycan.prime.util;
+package com.aripd.project.util;
 
 import java.util.List;
 import java.util.Map;
 
 
-import com.hrycan.prime.entity.Employee;
+import com.aripd.project.entity.Employee;
 
 public class EmployeeQueryData {
 
