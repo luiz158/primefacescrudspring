@@ -3,10 +3,10 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.hrycan</groupId>
-    <artifactId>primefacescrud</artifactId>
+    <artifactId>primefacescrudspring</artifactId>
     <packaging>war</packaging>
     <version>0.0.1-SNAPSHOT</version>
-    <name>primefacescrud</name>
+    <name>primefacescrudspring</name>
     <properties>
         <jsf.version>2.1.3</jsf.version>
         <mysql.version>5.1.26</mysql.version>
